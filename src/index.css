@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+#keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+.calculate{
+    width: 340px;
+    padding-block: 5px;
+    background-color: #ebebeb;
+}
+button{
+    width: 82px;
+    height: 40px;
+    outline: none;
+    cursor: pointer;
+    color: #414f5b;
+    border: 1px solid #c0c0c0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 19pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    font-size: 16pt;
+    height: 32px;
+    outline: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 98%;
+    border: 1px solid #c0c0c0;
+}
